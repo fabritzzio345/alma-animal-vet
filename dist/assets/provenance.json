@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "generator": "OpenAI image generation",
+  "approvedDirection": "seed:7ec9d34f2c6bc98e",
+  "assets": [
+    {
+      "path": "assets/plates/care-loop-frame.jpg",
+      "sha256": "fc90de909cb1700838816ad62bd5b30caf840bef6f7ccfe78187e6e5c38a137a",
+      "source": "assets/plates/care-loop-frame.png",
+      "promptRecord": ".impeccable/build/plate-inputs/care-loop-frame-prompt.txt",
+      "transformation": "AI-generated care-loop illustration composited with the generated patient photograph, flattened on #083850 and JPEG-optimized at quality 84."
+    },
+    {
+      "path": "assets/plates/patient-photo.jpg",
+      "sha256": "43dc27d214a06618b8d2e53b78f05887f1576fcce303a599a8570b7bd24a8385",
+      "source": "assets/plates/patient-photo.png",
+      "promptRecord": ".impeccable/build/plate-inputs/patient-photo-prompt.txt",
+      "transformation": "AI-generated clinic photograph flattened and JPEG-optimized at quality 84."
+    },
+    {
+      "path": "assets/plates/booking-paper.jpg",
+      "sha256": "381afbca056ec876458d2659b639a6932c7c299422b8fd038a58e12cc61b0740",
+      "source": "assets/plates/booking-paper.png",
+      "promptRecord": ".impeccable/build/plate-inputs/booking-paper-prompt.txt",
+      "transformation": "AI-generated booking docket flattened on #083850 and JPEG-optimized at quality 86."
+    },
+    {
+      "path": "assets/plates/grooming-photo.jpg",
+      "sha256": "da36fae1ab917858dd65bececed8b9cb2515102be01d6eeb53c0881549c0c8fc",
+      "source": "assets/plates/grooming-photo.png",
+      "promptRecord": ".impeccable/build/plate-inputs/grooming-photo-prompt.txt",
+      "transformation": "AI-generated grooming photograph resized to 1400px wide and JPEG-optimized at quality 84."
+    }
+  ]
+}

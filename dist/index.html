@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#083850">
+  <meta name="description" content="Alma Animal: medicina, cirugía, baño, tienda y acompañamiento veterinario en un solo lugar.">
+  <title>Alma Animal — Clínica veterinaria integral</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#reserva">Ir a reservar una cita</a>
+  <main>
+    <section class="hero-stage" aria-labelledby="hero-title">
+      <header class="top-chrome r-top-chrome">
+        <a class="brand" href="#inicio" aria-label="Alma Animal, inicio">
+          <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M32 55C25 47 11 39 9 25 7 13 20 6 29 16l3 4 3-4c9-10 22-3 20 9-2 14-16 22-23 30Z"/>
+            <path d="M23 30c3-5 7-7 12-7 7 0 12 5 12 12-4-3-8-4-12-3-5 1-8 0-12-2Z"/>
+          </svg>
+          <span class="brand-name">Alma<br>Animal</span>
+          <span class="brand-rule" aria-hidden="true"></span>
+          <span class="brand-subtitle">Clínica veterinaria<br>integral</span>
+        </a>
+
+        <nav id="primary-nav" class="primary-nav" aria-label="Navegación principal">
+          <a href="#servicios">Servicios</a>
+          <a href="#bano">Baño</a>
+          <a href="#tienda">Tienda</a>
+          <a href="#nosotros">Nosotros</a>
+        </nav>
+        <a class="emergency-link" href="tel:+51934181908">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6Z"/></svg>
+          Atención prioritaria
+        </a>
+      </header>
+
+      <div id="inicio" class="hero-art" aria-hidden="true">
+        <img class="r-patient-photo patient-photo" src="assets/plates/patient-photo.jpg" alt="">
+        <img class="r-care-loop-frame care-loop" src="assets/plates/care-loop-frame.jpg" alt="">
+      </div>
+
+      <h1 id="hero-title" class="hero-promise r-hero-promise">Una vida entera de cuidado, en un solo lugar.</h1>
+
+      <article class="care-copy r-prevent-copy">
+        <h2>Prevenir</h2>
+        <p>Vacunas, desparasitación y controles periódicos para una vida más larga y saludable.</p>
+      </article>
+      <article class="care-copy r-diagnose-copy">
+        <h2>Diagnosticar</h2>
+        <p>Consulta clínica, exámenes y diagnóstico oportuno con equipo especializado.</p>
+      </article>
+      <article class="care-copy care-copy--narrow r-treat-copy">
+        <h2>Tratar</h2>
+        <p>Medicina, cirugía y hospitalización con cuidado y seguimiento.</p>
+      </article>
+      <article class="care-copy r-accompany-copy">
+        <h2>Acompañar</h2>
+        <p>Controles, recuperación, baño y bienestar continuo para su día a día.</p>
+      </article>
+
+      <aside id="reserva" class="booking" aria-labelledby="booking-title">
+        <img class="r-booking-paper booking-paper" src="assets/plates/booking-paper.jpg" alt="" aria-hidden="true">
+        <h2 id="booking-title" class="r-booking-title booking-title">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2v3M17 2v3M4 9h16M5 4h14a2 2 0 0 1 2 2v14H3V6a2 2 0 0 1 2-2Z"/><path d="m9 14 2 2 4-4"/></svg>
+          Reserva tu cita
+        </h2>
+        <fieldset class="r-booking-slots booking-slots">
+          <legend class="sr-only">Elige un horario</legend>
+          <label class="slot slot--selected"><input type="radio" name="slot" value="Hoy 16:30" checked><span>Hoy 16:30</span></label>
+          <label class="slot"><input type="radio" name="slot" value="Mañana 09:00"><span>Mañana 09:00</span></label>
+          <label class="slot"><input type="radio" name="slot" value="Mañana 11:30"><span>Mañana 11:30</span></label>
+        </fieldset>
+        <button class="r-booking-action booking-action" type="button" data-open-booking>
+          <span>Reservar cita</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M14 7l5 5-5 5"/></svg>
+        </button>
+        <p class="booking-note" role="status" aria-live="polite">Horarios ilustrativos; la clínica confirma disponibilidad.</p>
+      </aside>
+
+      <div id="bano" class="grooming-preview">
+        <img class="r-grooming-photo grooming-photo" src="assets/plates/grooming-photo.jpg" alt="Perro durante un baño suave y cuidadoso">
+        <h2 class="r-grooming-heading grooming-heading">Baño y tienda,<br>siempre con su cuidado.</h2>
+        <ul class="r-shop-ledger shop-ledger">
+          <li><strong>Baño y estética</strong><span>Higiene, corte y cuidado del pelo.</span></li>
+          <li><strong>Alimento</strong><span>Nutrición para cada etapa.</span></li>
+          <li><strong>Accesorios</strong><span>Todo para su día a día.</span></li>
+          <li><strong>Cuidado y prevención</strong><span>Bienestar también en casa.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="servicios" class="services-section section-shell" aria-labelledby="services-title">
+      <div class="section-intro" data-reveal>
+        <h2 id="services-title">Todo su cuidado conversa entre sí.</h2>
+        <p>Desde su primera vacuna hasta una recuperación compleja, conectamos cada etapa para que la historia clínica, el equipo y las decisiones acompañen a tu mascota.</p>
+      </div>
+
+      <div class="service-index" data-reveal>
+        <article class="service-feature service-feature--wide">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 42c10-5 16-13 16-24V9l-16-5L8 9v9c0 11 6 19 16 24Z"/><path d="m17 23 5 5 10-11"/></svg>
+          <div><h3>Medicina preventiva</h3><p>Vacunación, desparasitación, controles periódicos, geriatría y planes de bienestar.</p></div>
+        </article>
+        <article class="service-feature">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M12 7v14a12 12 0 0 0 24 0V7"/><path d="M8 7h8M32 7h8M24 33v9M18 42h12"/></svg>
+          <div><h3>Consulta y especialidades</h3><p>Evaluación clínica integral y derivación coordinada cuando se necesita una mirada especializada.</p></div>
+        </article>
+        <article class="service-feature">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 34 29 13l6 6-21 21H8v-6Z"/><path d="m26 16 6 6M34 8l6 6"/></svg>
+          <div><h3>Cirugía y operaciones</h3><p>Evaluación preoperatoria, cirugía, control del dolor y recuperación con seguimiento.</p></div>
+        </article>
+        <article class="service-feature service-feature--wide">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 39h34M10 34V11h28v23"/><path d="M16 20h16M24 12v16M15 34v-5h18v5"/></svg>
+          <div><h3>Hospitalización y urgencias</h3><p>Estabilización, observación, medicación y comunicación clara durante cada cambio importante.</p></div>
+        </article>
+        <article class="service-feature">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M9 36 20 25l7 7 12-15"/><path d="M33 17h6v6M7 41h34"/></svg>
+          <div><h3>Diagnóstico</h3><p>Laboratorio, imágenes y pruebas clínicas para decidir con información y sin perder tiempo.</p></div>
+        </article>
+        <article class="service-feature">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 40S8 31 8 18a9 9 0 0 1 16-6 9 9 0 0 1 16 6c0 13-16 22-16 22Z"/><path d="M16 24h5l3-7 4 12 3-5h5"/></svg>
+          <div><h3>Recuperación y seguimiento</h3><p>Curaciones, rehabilitación, controles y orientación práctica para continuar el cuidado en casa.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="urgencias" class="care-path" aria-labelledby="path-title">
+      <div class="care-path__header" data-reveal>
+        <h2 id="path-title">Cuando algo preocupa, el camino debe sentirse claro.</h2>
+        <a href="tel:+51934181908">Llamar al 934 181 908</a>
+      </div>
+      <ol class="care-steps">
+        <li data-reveal><span>1</span><div><h3>Nos cuentas qué ocurre</h3><p>Escuchamos los síntomas y orientamos la prioridad de atención.</p></div></li>
+        <li data-reveal><span>2</span><div><h3>Evaluamos y explicamos</h3><p>Revisamos a tu mascota y proponemos los siguientes pasos con lenguaje sencillo.</p></div></li>
+        <li data-reveal><span>3</span><div><h3>Tratamos y acompañamos</h3><p>Coordinamos el tratamiento, la recuperación y los controles posteriores.</p></div></li>
+      </ol>
+      <p class="concept-note">Contenido demostrativo: confirma horarios, disponibilidad y protocolos directamente con la clínica.</p>
+    </section>
+
+    <section id="tienda" class="wellness-section section-shell" aria-labelledby="wellness-title">
+      <div class="wellness-visual" data-reveal>
+        <img src="assets/plates/grooming-photo.jpg" alt="Perro recibiendo un baño cuidadoso" loading="lazy" decoding="async">
+        <div class="wellness-stamp" aria-hidden="true">Suave<br>y seguro</div>
+      </div>
+      <div class="wellness-content" data-reveal>
+        <h2 id="wellness-title">Baño, estética y tienda con criterio veterinario.</h2>
+        <p>El bienestar cotidiano también es parte de su salud. Adaptamos el baño y la recomendación de productos a su edad, piel, pelaje y rutina.</p>
+        <div class="wellness-ledger">
+          <div><strong>Baño y estética</strong><span>Higiene, corte, cepillado y cuidado de uñas.</span></div>
+          <div><strong>Nutrición</strong><span>Alimentos y orientación para cada etapa de vida.</span></div>
+          <div><strong>Farmacia y prevención</strong><span>Productos de cuidado indicados por el equipo.</span></div>
+          <div><strong>Accesorios</strong><span>Paseo, descanso, juego y bienestar en casa.</span></div>
+        </div>
+        <a class="text-link" href="#cita">Consultar baño o producto <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section id="nosotros" class="clinic-section" aria-labelledby="clinic-title">
+      <div class="clinic-copy section-shell" data-reveal>
+        <h2 id="clinic-title">Una clínica completa sin perder el trato humano.</h2>
+        <p>Diseñamos cada contacto para que sepas qué está pasando, qué opciones existen y cómo continuar. La identidad, los servicios y los valores mostrados pertenecen a este concepto demostrativo de Alma Animal.</p>
+        <ul>
+          <li>Explicaciones claras antes de cada decisión.</li>
+          <li>Continuidad entre consulta, tratamiento y recuperación.</li>
+          <li>Cuidado respetuoso para mascotas y sus familias.</li>
+        </ul>
+      </div>
+      <div class="clinic-marquee" aria-hidden="true"><span>PREVENIR · DIAGNOSTICAR · TRATAR · ACOMPAÑAR · </span><span>PREVENIR · DIAGNOSTICAR · TRATAR · ACOMPAÑAR · </span></div>
+    </section>
+
+    <section id="cita" class="booking-section section-shell" aria-labelledby="form-title">
+      <div class="booking-section__intro" data-reveal>
+        <h2 id="form-title">Cuéntanos a quién vamos a cuidar.</h2>
+        <p>Completa lo esencial y abriremos WhatsApp con el mensaje listo para enviar al <a href="https://wa.me/51934181908">934 181 908</a>.</p>
+        <p class="form-privacy">El formulario no guarda tus datos en esta página.</p>
+      </div>
+
+      <form id="cita-form" class="appointment-form" novalidate data-reveal>
+        <div class="field-row">
+          <label>Tu nombre<input name="nombre" autocomplete="name" required placeholder="¿Cómo te llamas?"></label>
+          <label>Nombre de tu mascota<input name="mascota" required placeholder="Ej. Moka"></label>
+        </div>
+        <div class="field-row">
+          <label>Especie
+            <select name="especie" required>
+              <option value="">Selecciona</option>
+              <option>Perro</option><option>Gato</option><option>Otra mascota</option>
+            </select>
+          </label>
+          <label>Servicio
+            <select name="servicio" required>
+              <option value="">Selecciona</option>
+              <option>Consulta general</option><option>Vacunas y prevención</option><option>Diagnóstico</option><option>Cirugía u operación</option><option>Urgencia</option><option>Baño y estética</option><option>Producto o alimento</option>
+            </select>
+          </label>
+        </div>
+        <div class="field-row">
+          <label>Fecha preferida<input type="date" name="fecha" required></label>
+          <label>Tu teléfono<input type="tel" name="telefono" autocomplete="tel" inputmode="tel" pattern="[0-9+() -]{7,18}" required placeholder="Ej. 999 999 999"></label>
+        </div>
+        <label>¿Qué necesitamos saber?<textarea name="detalle" rows="4" placeholder="Cuéntanos brevemente qué ocurre o qué producto buscas."></textarea></label>
+        <p class="form-error" role="alert" hidden>Completa los campos obligatorios para preparar el mensaje.</p>
+        <button class="form-submit" type="submit"><span>Continuar por WhatsApp</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M14 7l5 5-5 5"/></svg></button>
+      </form>
+    </section>
+
+    <section class="faq-section section-shell" aria-labelledby="faq-title">
+      <h2 id="faq-title" data-reveal>Preguntas antes de venir.</h2>
+      <div class="faq-list">
+        <details data-reveal><summary>¿Atienden urgencias?</summary><p>La página presenta atención de urgencia como parte del concepto. Confirma por teléfono la disponibilidad y las indicaciones antes de trasladarte.</p></details>
+        <details data-reveal><summary>¿Puedo reservar baño para una mascota sensible?</summary><p>Sí. Describe su edad, temperamento, piel y cualquier antecedente para que el equipo pueda orientar el servicio adecuado.</p></details>
+        <details data-reveal><summary>¿Venden alimento y productos veterinarios?</summary><p>La tienda contempla nutrición, prevención, farmacia y accesorios. Consulta existencias y recomendaciones por WhatsApp.</p></details>
+        <details data-reveal><summary>¿Cómo se confirma una cirugía?</summary><p>Primero se realiza una evaluación clínica y preoperatoria. El equipo explica preparación, opciones y seguimiento antes de programarla.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#inicio">Alma Animal</a>
+    <p>Clínica veterinaria integral · Concepto demostrativo</p>
+    <div><a href="tel:+51934181908">934 181 908</a><a href="https://wa.me/51934181908">WhatsApp</a></div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
