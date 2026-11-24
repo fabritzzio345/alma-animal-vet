@@ -1,29 +1,5 @@
-const slotLabels = document.querySelectorAll('.slot');
-const bookingButton = document.querySelector('[data-open-booking]');
-const bookingNote = document.querySelector('.booking-note');
 const appointmentForm = document.querySelector('#cita-form');
 const clinicWhatsApp = '51934181908';
-
-slotLabels.forEach((label) => {
-  label.addEventListener('change', () => {
-    slotLabels.forEach((item) => item.classList.toggle('slot--selected', item === label));
-    bookingNote.textContent = `${label.textContent.trim()} seleccionado. La clínica confirmará la disponibilidad.`;
-  });
-});
-
-bookingButton?.addEventListener('click', () => {
-  const selected = document.querySelector('input[name="slot"]:checked');
-  bookingButton.disabled = true;
-  bookingButton.querySelector('span').textContent = 'Preparando…';
-
-  window.setTimeout(() => {
-    bookingButton.disabled = false;
-    bookingButton.querySelector('span').textContent = 'Continuar reserva';
-    bookingNote.textContent = `${selected?.value ?? 'Horario'} guardado. Completa tus datos en la siguiente sección.`;
-    document.querySelector('#cita')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    document.querySelector('#cita-form input')?.focus({ preventScroll: true });
-  }, 500);
-});
 
 const dateInput = document.querySelector('input[type="date"]');
 if (dateInput) {
@@ -52,7 +28,6 @@ appointmentForm?.addEventListener('submit', (event) => {
 
   errorMessage.hidden = true;
   const data = new FormData(appointmentForm);
-  const selectedSlot = document.querySelector('input[name="slot"]:checked')?.value;
   const lines = [
     'Hola, Alma Animal. Quisiera solicitar una cita:',
     '',
@@ -61,7 +36,6 @@ appointmentForm?.addEventListener('submit', (event) => {
     `Especie: ${data.get('especie')}`,
     `Servicio: ${data.get('servicio')}`,
     `Fecha preferida: ${data.get('fecha')}`,
-    selectedSlot ? `Horario visto en la web: ${selectedSlot}` : '',
     `Teléfono de contacto: ${data.get('telefono')}`,
     data.get('detalle') ? `Detalle: ${data.get('detalle')}` : '',
     '',

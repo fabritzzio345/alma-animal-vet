@@ -24,20 +24,12 @@
   --focus: #ffb36b;
   --ease-out: cubic-bezier(.23, 1, .32, 1);
   --r-top-chrome-x: 0%; --r-top-chrome-y: 0%; --r-top-chrome-w: 100%; --r-top-chrome-h: 8.7%;
-  --r-care-loop-frame-x: 0%; --r-care-loop-frame-y: 6.62%; --r-care-loop-frame-w: 78.01%; --r-care-loop-frame-h: 69.94%;
-  --r-patient-photo-x: 7.94%; --r-patient-photo-y: 22.5%; --r-patient-photo-w: 57.3%; --r-patient-photo-h: 42.16%;
-  --r-prevent-copy-x: 16.61%; --r-prevent-copy-y: 12.57%; --r-prevent-copy-w: 17.96%; --r-prevent-copy-h: 11.15%;
-  --r-diagnose-copy-x: 52.79%; --r-diagnose-copy-y: 10.96%; --r-diagnose-copy-w: 19.03%; --r-diagnose-copy-h: 10.87%;
-  --r-treat-copy-x: 65.16%; --r-treat-copy-y: 40.64%; --r-treat-copy-w: 11.23%; --r-treat-copy-h: 14.18%;
-  --r-accompany-copy-x: 31.2%; --r-accompany-copy-y: 58.32%; --r-accompany-copy-w: 21.39%; --r-accompany-copy-h: 9.64%;
-  --r-hero-promise-x: 8.34%; --r-hero-promise-y: 61.06%; --r-hero-promise-w: 56.89%; --r-hero-promise-h: 12.38%;
-  --r-booking-paper-x: 74.65%; --r-booking-paper-y: 7.09%; --r-booking-paper-w: 25.35%; --r-booking-paper-h: 61.44%;
-  --r-booking-title-x: 81.71%; --r-booking-title-y: 21.17%; --r-booking-title-w: 14.93%; --r-booking-title-h: 5.39%;
-  --r-booking-slots-x: 79.15%; --r-booking-slots-y: 28.45%; --r-booking-slots-w: 18.43%; --r-booking-slots-h: 17.77%;
-  --r-booking-action-x: 78.82%; --r-booking-action-y: 48.2%; --r-booking-action-w: 18.76%; --r-booking-action-h: 6.24%;
-  --r-grooming-photo-x: 0%; --r-grooming-photo-y: 76.09%; --r-grooming-photo-w: 43.71%; --r-grooming-photo-h: 23.91%;
-  --r-grooming-heading-x: 47.14%; --r-grooming-heading-y: 81.19%; --r-grooming-heading-w: 24.88%; --r-grooming-heading-h: 10.11%;
-  --r-shop-ledger-x: 78.82%; --r-shop-ledger-y: 77.03%; --r-shop-ledger-w: 19.91%; --r-shop-ledger-h: 21.27%;
+  --r-care-loop-frame-x: 13%; --r-care-loop-frame-y: 5.5%; --r-care-loop-frame-w: 74%; --r-care-loop-frame-h: auto;
+  --r-prevent-copy-x: 29.5%; --r-prevent-copy-y: 12.2%; --r-prevent-copy-w: 15%; --r-prevent-copy-h: 8%;
+  --r-diagnose-copy-x: 62.7%; --r-diagnose-copy-y: 11.1%; --r-diagnose-copy-w: 19%; --r-diagnose-copy-h: 8%;
+  --r-treat-copy-x: 75.5%; --r-treat-copy-y: 40.5%; --r-treat-copy-w: 10%; --r-treat-copy-h: 8%;
+  --r-accompany-copy-x: 42.5%; --r-accompany-copy-y: 63%; --r-accompany-copy-w: 24%; --r-accompany-copy-h: 7%;
+  --r-hero-promise-x: 17%; --r-hero-promise-y: 73.5%; --r-hero-promise-w: 66%; --r-hero-promise-h: 4%;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -101,19 +93,11 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero-stage [class*=" r-"] { position: absolute; }
 .r-top-chrome { left: var(--r-top-chrome-x); top: var(--r-top-chrome-y); width: var(--r-top-chrome-w); height: var(--r-top-chrome-h); }
 .r-care-loop-frame { left: var(--r-care-loop-frame-x); top: var(--r-care-loop-frame-y); width: var(--r-care-loop-frame-w); height: var(--r-care-loop-frame-h); }
-.r-patient-photo { left: var(--r-patient-photo-x); top: var(--r-patient-photo-y); width: var(--r-patient-photo-w); height: var(--r-patient-photo-h); }
 .r-prevent-copy { left: var(--r-prevent-copy-x); top: var(--r-prevent-copy-y); width: var(--r-prevent-copy-w); height: var(--r-prevent-copy-h); }
 .r-diagnose-copy { left: var(--r-diagnose-copy-x); top: var(--r-diagnose-copy-y); width: var(--r-diagnose-copy-w); height: var(--r-diagnose-copy-h); }
 .r-treat-copy { left: var(--r-treat-copy-x); top: var(--r-treat-copy-y); width: var(--r-treat-copy-w); height: var(--r-treat-copy-h); }
 .r-accompany-copy { left: var(--r-accompany-copy-x); top: var(--r-accompany-copy-y); width: var(--r-accompany-copy-w); height: var(--r-accompany-copy-h); }
 .r-hero-promise { left: var(--r-hero-promise-x); top: var(--r-hero-promise-y); width: var(--r-hero-promise-w); height: var(--r-hero-promise-h); }
-.r-booking-paper { left: var(--r-booking-paper-x); top: var(--r-booking-paper-y); width: var(--r-booking-paper-w); height: var(--r-booking-paper-h); }
-.r-booking-title { left: var(--r-booking-title-x); top: var(--r-booking-title-y); width: var(--r-booking-title-w); height: var(--r-booking-title-h); }
-.r-booking-slots { left: var(--r-booking-slots-x); top: var(--r-booking-slots-y); width: var(--r-booking-slots-w); height: var(--r-booking-slots-h); }
-.r-booking-action { left: var(--r-booking-action-x); top: var(--r-booking-action-y); width: var(--r-booking-action-w); height: var(--r-booking-action-h); }
-.r-grooming-photo { left: var(--r-grooming-photo-x); top: var(--r-grooming-photo-y); width: var(--r-grooming-photo-w); height: var(--r-grooming-photo-h); }
-.r-grooming-heading { left: var(--r-grooming-heading-x); top: var(--r-grooming-heading-y); width: var(--r-grooming-heading-w); height: var(--r-grooming-heading-h); }
-.r-shop-ledger { left: var(--r-shop-ledger-x); top: var(--r-shop-ledger-y); width: var(--r-shop-ledger-w); height: var(--r-shop-ledger-h); }
 
 .top-chrome {
   z-index: 20;
@@ -136,7 +120,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .brand-name { font-family: "Baloo 2", sans-serif; font-size: clamp(21px, 2.55vw, 40px); font-weight: 750; line-height: .77; letter-spacing: -.03em; }
 .brand-rule { width: 1px; height: clamp(34px, 4.2vw, 58px); margin-inline: .5vw; background: rgba(255,250,240,.8); }
 .brand-subtitle { font-size: clamp(8px, .95vw, 15px); font-weight: 800; line-height: 1.05; text-transform: uppercase; }
-.brand-subtitle strong { display: block; margin-top: .25em; color: var(--citron); font-size: .72em; letter-spacing: .025em; }
+.brand-subtitle strong { display: block; margin-top: .25em; color: var(--citron); font-size: .82em; letter-spacing: .025em; }
 
 .primary-nav { display: flex; align-items: center; justify-content: center; gap: clamp(18px, 4vw, 56px); flex: 1; }
 .primary-nav a { color: inherit; font-family: "Baloo 2", sans-serif; font-size: clamp(13px, 1.55vw, 22px); font-weight: 700; text-decoration: none; text-underline-offset: .3em; }
@@ -162,8 +146,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .nav-toggle { display: none; }
 
 .hero-art img { display: block; object-fit: contain; object-position: center; }
-.patient-photo { z-index: 1; border-radius: 22% 18% 22% 18%; object-fit: cover !important; }
-.care-loop { z-index: 2; object-position: top left !important; }
+.care-loop { z-index: 2; height: auto; object-position: center top !important; }
 
 .care-copy {
   z-index: 5;
@@ -178,94 +161,73 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .r-prevent-copy { font-size: clamp(10px, 1vw, 15px); }
 .r-prevent-copy h2 { font-size: clamp(22px, 2.25vw, 34px); }
 .r-diagnose-copy { font-size: clamp(10px, 1vw, 15px); }
-.r-diagnose-copy h2 { font-size: clamp(21px, 2.15vw, 32px); }
+.r-diagnose-copy h2 { font-size: clamp(20px, 2vw, 30px); }
 .r-treat-copy { font-size: clamp(10px, 1.05vw, 16px); }
 .r-treat-copy h2 { font-size: clamp(21px, 2.05vw, 31px); }
 .r-accompany-copy { font-size: clamp(9px, .92vw, 14px); }
 .r-accompany-copy h2 { font-size: clamp(19px, 1.85vw, 28px); }
-.r-prevent-copy { left: 17.4%; top: 13.6%; width: 15%; }
-.r-diagnose-copy { left: 55.4%; top: 12.2%; width: 15%; }
-.r-treat-copy { left: 65.8%; top: 43.2%; width: 9.8%; }
-.r-accompany-copy { display: none; }
+.r-accompany-copy { display: block; }
 
 .hero-promise {
-  z-index: 6;
+  z-index: 10;
   margin: 0;
-  color: var(--ink);
+  left: 50%;
+  top: 70.2%;
+  bottom: auto;
+  width: max-content;
+  max-width: 72%;
+  height: auto;
+  padding: .18em .6em .22em;
+  color: var(--paper-light);
+  background: var(--petrol-deep);
+  border-radius: 12px;
   font-family: "Baloo 2", sans-serif;
-  top: 70.1%;
-  font-size: clamp(21px, 2.1vw, 31px);
+  font-size: clamp(21px, 2vw, 30px);
   font-weight: 800;
-  line-height: .95;
+  line-height: 1;
   letter-spacing: -.035em;
   text-align: center;
   text-wrap: balance;
-  white-space: nowrap;
-  transform: rotate(2.5deg);
-  transform-origin: center;
+  white-space: normal;
+  transform: translateX(-50%);
 }
 
-.booking { position: static; }
-.booking-paper { z-index: 3; object-fit: contain; object-position: top center; filter: drop-shadow(0 18px 24px rgba(2, 24, 36, .2)); }
-.booking-title {
-  z-index: 5;
-  display: flex;
-  align-items: center;
-  gap: .5em;
-  margin: 0;
+.grooming-preview {
+  position: absolute;
+  z-index: 8;
+  inset: auto 4% 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(220px, .75fr) minmax(220px, .8fr);
+  min-height: 21%;
+  padding-top: clamp(46px, 4.2vw, 62px);
   color: var(--ink);
-  font-family: "Baloo 2", sans-serif;
-  font-size: clamp(16px, 2vw, 30px);
-  line-height: 1;
-  letter-spacing: -.04em;
-  white-space: nowrap;
+  background: var(--mint);
+  border-radius: 28px 28px 0 0;
+  overflow: hidden;
 }
-.booking-title svg { width: 1.2em; fill: none; stroke: var(--coral); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-.booking-slots { z-index: 5; display: grid; align-content: space-between; gap: 7%; margin: 0; padding: 0; border: 0; }
-.slot { position: relative; display: flex; align-items: center; min-height: 28%; padding: .4em .85em .4em 2.3em; color: var(--ink); border: 1.5px solid rgba(8,56,80,.55); border-radius: 999px; font-family: "Baloo 2", sans-serif; font-size: clamp(12px, 1.62vw, 24px); font-weight: 750; line-height: 1; cursor: pointer; transition: background-color 140ms var(--ease-out), border-color 140ms var(--ease-out), transform 120ms var(--ease-out); }
-.slot input { position: absolute; left: .8em; width: 1em; height: 1em; margin: 0; accent-color: var(--petrol); }
-.slot--selected { background: var(--citron); border-color: var(--citron); }
-.booking-action {
-  z-index: 5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1em;
-  color: white;
-  background: var(--coral);
-  border: 0;
-  border-radius: 999px;
-  font-family: "Baloo 2", sans-serif;
-  font-size: clamp(12px, 1.75vw, 26px);
-  font-weight: 750;
-  cursor: pointer;
-  transition: background-color 140ms var(--ease-out), transform 120ms var(--ease-out), box-shadow 140ms var(--ease-out);
-}
-.booking-action svg { width: 1.15em; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-.booking-note { position: absolute; z-index: 5; left: 79.4%; top: 56%; width: 18%; margin: 0; color: rgba(8,56,80,.72); font-size: clamp(7px, .72vw, 11px); line-height: 1.2; text-align: center; }
-
-.grooming-preview::before { content: ""; position: absolute; z-index: 0; inset: 75.9% 0 0; background: var(--mint); border-radius: 28px 28px 0 0; }
-.grooming-photo { z-index: 1; object-fit: cover; object-position: center; }
-.grooming-heading { z-index: 2; margin: 0; color: var(--ink); font-family: "Baloo 2", sans-serif; font-size: clamp(20px, 2.65vw, 40px); font-weight: 780; line-height: .98; letter-spacing: -.04em; }
-.shop-ledger { z-index: 2; display: grid; align-content: center; gap: .4em; margin: 0; padding: 0; color: var(--ink); list-style: none; font-size: clamp(9px, 1.02vw, 15px); }
-.shop-ledger li { display: grid; padding-block: .2em; border-bottom: 1px solid rgba(8,56,80,.25); }
+.hero-stage .grooming-preview > [class^="r-"] { position: static; width: auto; height: auto; }
+.grooming-photo { display: block; width: 100% !important; height: 100% !important; min-height: 184px; object-fit: cover; object-position: center; }
+.grooming-heading { align-self: center; margin: 0; padding: clamp(20px, 2.5vw, 36px); color: var(--ink); font-family: "Baloo 2", sans-serif; font-size: clamp(24px, 2.55vw, 38px); font-weight: 780; line-height: .98; letter-spacing: -.035em; }
+.shop-ledger { display: grid; align-content: center; gap: .3em; margin: 0; padding: clamp(18px, 2.3vw, 32px) clamp(24px, 3.2vw, 48px) clamp(18px, 2.3vw, 32px) 0; color: var(--ink); list-style: none; font-size: clamp(11px, 1vw, 15px); }
+.shop-ledger li { display: grid; gap: 2px; padding-block: .5em; border-bottom: 1px solid rgba(8,56,80,.25); }
 .shop-ledger strong { font-family: "Baloo 2", sans-serif; font-size: 1.1em; line-height: 1; }
 .shop-ledger span { line-height: 1.1; }
 
-.booking-action:active, .emergency-link:active, .slot:active { transform: scale(.97); }
+.emergency-link:active { transform: scale(.97); }
 
 main { overflow: hidden; }
 
 .section-shell {
-  width: min(100% - 48px, 1280px);
+  width: min(100% - 48px, 1380px);
   margin-inline: auto;
 }
 
 .services-section {
+  width: min(92%, 1368px);
   display: grid;
-  grid-template-columns: minmax(0, .82fr) minmax(0, 1.7fr);
-  gap: clamp(48px, 7vw, 112px);
-  padding-block: clamp(96px, 10vw, 156px);
+  grid-template-columns: minmax(280px, .7fr) minmax(0, 1.8fr);
+  gap: clamp(72px, 8vw, 128px);
+  padding: clamp(112px, 11vw, 176px) clamp(28px, 4vw, 64px);
   color: var(--ink);
   background: var(--paper);
 }
@@ -284,7 +246,7 @@ main { overflow: hidden; }
   letter-spacing: -.035em;
   text-wrap: balance;
 }
-.section-intro h2 { max-width: 10ch; font-size: clamp(48px, 6.2vw, 88px); }
+.section-intro h2 { max-width: 11ch; font-size: clamp(46px, 5.25vw, 76px); }
 .section-intro p { max-width: 42ch; margin: 0; font-size: clamp(17px, 1.5vw, 22px); line-height: 1.5; }
 
 .service-index {
@@ -295,8 +257,8 @@ main { overflow: hidden; }
 .service-feature {
   display: grid;
   grid-template-columns: 52px 1fr;
-  gap: 20px;
-  padding: clamp(30px, 3.6vw, 52px) clamp(12px, 2.4vw, 34px);
+  gap: 24px;
+  padding: clamp(38px, 4vw, 60px) clamp(20px, 2.8vw, 42px);
   border-bottom: 1px solid rgba(8, 56, 80, .32);
 }
 .service-feature:nth-child(odd) { border-right: 1px solid rgba(8, 56, 80, .32); padding-left: 0; }
@@ -323,9 +285,9 @@ main { overflow: hidden; }
 
 .wellness-section {
   display: grid;
-  grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr);
-  gap: clamp(56px, 8vw, 120px);
-  padding-block: clamp(96px, 11vw, 168px);
+  grid-template-columns: minmax(0, .92fr) minmax(440px, 1.08fr);
+  gap: clamp(80px, 9vw, 136px);
+  padding: clamp(120px, 12vw, 184px) clamp(28px, 4vw, 64px);
   color: var(--ink);
   background: var(--mint);
 }
@@ -333,10 +295,10 @@ main { overflow: hidden; }
 .wellness-visual img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 16px; box-shadow: 0 28px 54px rgba(3, 35, 49, .22); }
 .wellness-stamp { position: absolute; right: -28px; bottom: -32px; display: grid; width: 138px; aspect-ratio: 1; place-items: center; color: var(--petrol-deep); background: var(--citron); border-radius: 50%; font-family: "Baloo 2", sans-serif; font-size: 22px; font-weight: 800; line-height: .95; text-align: center; transform: rotate(8deg); }
 .wellness-content { align-self: center; }
-.wellness-content h2 { max-width: 13ch; font-size: clamp(46px, 5.8vw, 82px); }
-.wellness-content > p { max-width: 52ch; margin: 0 0 36px; color: #315667; font-size: clamp(17px, 1.5vw, 21px); line-height: 1.5; }
+.wellness-content h2 { max-width: 14ch; font-size: clamp(44px, 4.8vw, 70px); }
+.wellness-content > p { max-width: 58ch; margin: 0 0 44px; color: #315667; font-size: clamp(17px, 1.4vw, 21px); line-height: 1.6; }
 .wellness-ledger { border-top: 1px solid rgba(8, 56, 80, .3); }
-.wellness-ledger > div { display: grid; grid-template-columns: minmax(150px, .75fr) 1.25fr; gap: 24px; padding-block: 18px; border-bottom: 1px solid rgba(8, 56, 80, .3); }
+.wellness-ledger > div { display: grid; grid-template-columns: minmax(170px, .7fr) 1.3fr; gap: 32px; padding-block: 24px; border-bottom: 1px solid rgba(8, 56, 80, .3); }
 .wellness-ledger strong { font-family: "Baloo 2", sans-serif; font-size: 20px; line-height: 1; }
 .wellness-ledger span { color: #315667; line-height: 1.35; }
 .text-link { display: inline-flex; align-items: center; gap: .7em; margin-top: 32px; color: var(--ink); font-family: "Baloo 2", sans-serif; font-size: 20px; font-weight: 750; text-decoration-thickness: 2px; text-underline-offset: .3em; }
@@ -347,26 +309,26 @@ main { overflow: hidden; }
 .clinic-copy > p { align-self: center; max-width: 48ch; margin: 0; font-size: clamp(18px, 1.6vw, 23px); line-height: 1.55; }
 .clinic-copy ul { grid-column: 2; margin: -36px 0 0; padding: 0; list-style: none; border-top: 1px solid rgba(5, 42, 61, .4); }
 .clinic-copy li { padding-block: 14px; border-bottom: 1px solid rgba(5, 42, 61, .4); font-weight: 750; }
-.clinic-marquee { display: flex; width: max-content; overflow: hidden; color: var(--petrol-deep); background: var(--citron); font-family: "Baloo 2", sans-serif; font-size: clamp(34px, 5vw, 70px); font-weight: 800; line-height: 1.15; white-space: nowrap; }
-.clinic-marquee span { display: block; padding-right: .25em; }
+.clinic-marquee { display: flex; width: 100%; overflow: hidden; padding-block: .16em; color: var(--petrol-deep); background: var(--citron); font-family: "Baloo 2", sans-serif; font-size: clamp(34px, 5vw, 70px); font-weight: 800; line-height: 1.15; white-space: nowrap; }
+.clinic-marquee span { display: block; width: max-content; min-width: max-content; padding-inline: .35em; }
 .clinic-marquee span:last-child { display: none; }
 
 .booking-section {
   display: grid;
-  grid-template-columns: minmax(0, .82fr) minmax(0, 1.18fr);
-  gap: clamp(56px, 9vw, 140px);
-  padding-block: clamp(104px, 11vw, 170px);
+  grid-template-columns: minmax(300px, .72fr) minmax(0, 1.28fr);
+  gap: clamp(84px, 9vw, 144px);
+  padding: clamp(124px, 12vw, 188px) clamp(28px, 4vw, 64px);
   color: var(--ink);
   background: var(--paper);
 }
 .booking-section__intro { align-self: start; position: sticky; top: 40px; }
-.booking-section__intro h2 { max-width: 10ch; font-size: clamp(52px, 6.8vw, 96px); }
+.booking-section__intro h2 { max-width: 11ch; font-size: clamp(50px, 5.7vw, 82px); }
 .booking-section__intro p { max-width: 42ch; color: #315667; font-size: 18px; line-height: 1.5; }
 .booking-section__intro a { color: var(--ink); font-weight: 800; text-underline-offset: .25em; }
 .booking-section__intro .form-privacy { margin-top: 28px; font-size: 13px; }
 
-.appointment-form { display: grid; gap: 24px; padding: clamp(28px, 4vw, 56px); background: var(--paper-light); border-radius: 16px; box-shadow: 0 28px 58px rgba(43, 29, 10, .14); }
-.field-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.appointment-form { display: grid; gap: 28px; padding: clamp(40px, 4.8vw, 68px); background: var(--paper-light); border-radius: 16px; box-shadow: 0 28px 58px rgba(43, 29, 10, .14); }
+.field-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
 .appointment-form label { display: grid; gap: 8px; color: var(--ink); font-weight: 800; }
 .appointment-form input,
 .appointment-form select,
@@ -414,35 +376,26 @@ main { overflow: hidden; }
 @media (hover: hover) and (pointer: fine) {
   .primary-nav a:hover { text-decoration: underline; }
   .emergency-link:hover { background: var(--citron); transform: translateY(-2px); }
-  .booking-action:hover { background: #f17664; box-shadow: 0 10px 22px rgba(146, 50, 37, .22); }
-  .slot:hover { border-color: var(--petrol); transform: translateY(-1px); }
   .care-path__header a:hover { background: var(--mint); transform: translateY(-2px); }
   .form-submit:hover { background: #f17664; box-shadow: 0 12px 28px rgba(146, 50, 37, .23); }
 }
 
 @media (max-width: 760px) {
-  .hero-stage { min-height: 850px; aspect-ratio: auto; overflow: hidden; }
+  .hero-stage { min-height: 610px; aspect-ratio: auto; overflow: hidden; }
   .top-chrome { height: 74px; padding-inline: 18px; }
   .brand { min-width: auto; }
   .brand-rule, .primary-nav { display: none; }
   .brand-subtitle { position: absolute; left: 18px; top: 62px; display: block; margin: 0; font-size: 0; }
-  .brand-subtitle strong { margin: 0; font-size: 9px; line-height: 1; white-space: nowrap; }
+  .brand-subtitle strong { margin: 0; font-size: 11px; line-height: 1; white-space: nowrap; }
   .brand-mark { width: 42px; }
   .brand-name { font-size: 26px; }
   .emergency-link { min-width: 86px; margin-left: auto; padding-inline: 10px; font-size: 13px; }
   .emergency-link span { font-size: 0; }
   .emergency-link span::after { content: "Llamar"; font-size: 12px; }
   .nav-toggle { display: none; }
-  .hero-art .patient-photo { display: none; }
   .care-loop { left: -14%; top: 88px; width: 112%; height: auto; }
   .care-copy { display: none; }
-  .hero-promise { left: 8%; top: 350px; width: 84%; height: auto; color: var(--paper-light); font-size: clamp(28px, 8.5vw, 42px); transform: none; text-align: center; white-space: normal; }
-  .booking-paper { left: 5%; top: 420px; width: 90%; height: 420px; object-fit: fill; }
-  .booking-title { left: 20%; top: 490px; width: 60%; height: auto; font-size: 26px; }
-  .booking-slots { left: 14%; top: 545px; width: 72%; height: 150px; }
-  .slot { font-size: 16px; }
-  .booking-action { left: 14%; top: 710px; width: 72%; height: 54px; font-size: 20px; }
-  .booking-note { display: none; }
+  .hero-promise { left: 8%; top: 410px; bottom: auto; width: 84%; max-width: none; height: auto; padding: 0; color: var(--paper-light); background: transparent; font-size: clamp(30px, 9vw, 44px); text-align: center; white-space: normal; transform: none; }
   .grooming-preview { display: none; }
   .section-shell { width: min(100% - 32px, 1280px); }
   .services-section,

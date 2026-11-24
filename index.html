@@ -13,9 +13,9 @@
 </head>
 
 <body>
-  <a class="skip-link" href="#reserva">Ir a reservar una cita</a>
+  <a class="skip-link" href="#cita">Ir a reservar una cita</a>
   <main>
-    <section class="hero-stage" aria-labelledby="hero-title">
+    <section id="inicio" class="hero-stage" aria-labelledby="hero-title">
       <header class="top-chrome r-top-chrome">
         <a class="brand" href="#inicio" aria-label="Alma Animal, inicio">
           <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
@@ -41,8 +41,7 @@
         </a>
       </header>
 
-      <div id="inicio" class="hero-art" aria-hidden="true">
-        <img class="r-patient-photo patient-photo" src="assets/plates/patient-photo.jpg" alt="">
+      <div class="hero-art" aria-hidden="true">
         <img class="r-care-loop-frame care-loop" src="assets/plates/care-loop-frame.jpg" alt="">
       </div>
 
@@ -64,32 +63,6 @@
         <h2>Acompañar</h2>
         <p>Controles, recuperación, baño y bienestar continuo para su día a día.</p>
       </article>
-
-      <aside id="reserva" class="booking" aria-labelledby="booking-title">
-        <img class="r-booking-paper booking-paper" src="assets/plates/booking-paper.jpg" alt="" aria-hidden="true">
-        <h2 id="booking-title" class="r-booking-title booking-title">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M7 2v3M17 2v3M4 9h16M5 4h14a2 2 0 0 1 2 2v14H3V6a2 2 0 0 1 2-2Z" />
-            <path d="m9 14 2 2 4-4" />
-          </svg>
-          Reserva tu cita
-        </h2>
-        <fieldset class="r-booking-slots booking-slots">
-          <legend class="sr-only">Elige un horario</legend>
-          <label class="slot slot--selected"><input type="radio" name="slot" value="Hoy 16:30" checked><span>Hoy
-              16:30</span></label>
-          <label class="slot"><input type="radio" name="slot" value="Mañana 09:00"><span>Mañana 09:00</span></label>
-          <label class="slot"><input type="radio" name="slot" value="Mañana 11:30"><span>Mañana 11:30</span></label>
-        </fieldset>
-        <button class="r-booking-action booking-action" type="button" data-open-booking>
-          <span>Reservar cita</span>
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M5 12h14M14 7l5 5-5 5" />
-          </svg>
-        </button>
-        <p class="booking-note" role="status" aria-live="polite">Concepto demostrativo: no confirma atención ni
-          disponibilidad real.</p>
-      </aside>
 
       <div id="bano" class="grooming-preview">
         <img class="r-grooming-photo grooming-photo" src="assets/plates/grooming-photo.jpg"
